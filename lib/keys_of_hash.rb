@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 
 # This method should take an undefined number of arguments,
 # using the splat operator, and return an array with every
@@ -21,4 +22,15 @@ class Hash
     arr
   end
 
+=======
+require "pry"
+
+class Hash
+  def keys_of(*arguments)
+    # code goes here
+    arguments
+    # binding.pry
+    # arguments.each do |key,value|
+  end
+>>>>>>> c192d74388376bcc34e8ba1e0b0f7523d30ce622
 end
